@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #F0F2F5;
+            font-family: Arial;
+        }
+        #fb{
+            font-size: 60px;
+            font-weight: 740;
+            color: #0866FF;
+            margin-bottom: 0px;
+        }
+        #Note{
+            font-size: 28px;
+            margin-top: 0px;
+            padding-top: 4px;
+            font-weight: 300;
+            
+        }
+        .main-section{
+            float: left;
+            width: 500px;
+            margin-top: 130px;
+            margin-left: 270px;
+            text-align: left;
+        }
+        .box{
+            background-color: #fff;
+            border: 1px solid transparent;
+            box-shadow: 0 2px 5px rgba(71, 70, 70, 0.5);
+            border-radius: 6px;
+            height: 340px;
+        }
+        .box-section{
+            float: right;
+            width: 400px;
+            height: 380px;
+            margin-right: 280px;
+            margin-top: 110px;
+        }
+        #email-mob{
+            margin-top: 14px;
+            margin-left: 15px;
+            height: 45px;
+            width: 360px;
+            border: 1px solid #b1b1b1bb;
+            border-radius: 5px;
+            font-size: 1rem;
+            padding-left: 8px;
+        }
+        #pswd{
+            margin-top: 14px;
+            margin-left: 15px;
+            margin-bottom: 5px;
+            height: 45px;
+            width: 360px;
+            border: 1px solid #b1b1b1bb;
+            border-radius: 5px;
+            font-size: 1rem;
+            padding-left: 8px;
+        }
+        #login{
+            margin-top: 14px;
+            margin-left: 15px;
+            height: 47px;
+            width: 360px;
+            border: 1px solid #b1b1b1;
+            border-radius: 5px;
+            font-size: 1.3rem;
+            background-color: #0866FF;
+            font-weight: 600;
+            color: white;
+        }
+        #fg{
+            margin-top: 14px;   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.9rem;
+            font-weight: 520;
+            text-decoration: none;
+            color: blue;
+        }
+        hr{
+            margin-top: 22px;   
+            width : 90%;
+            border-color: rgba(140, 139, 139, 0.137);
+        }
+        #new{
+            margin-top: 14px;
+            margin-left: 24%;
+            height: 47px;
+            width: 200px;
+            border: 1px solid #b1b1b1;
+            border-radius: 5px;
+            font-size: 1rem;
+            background-color: #3DAE25;
+            font-weight: 600;
+            color: white;
+        }
+        #para{
+            padding-top: 18px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            font-size: 0.9rem;
+        }
+        p a{
+            text-decoration: none;
+            color: black;
+
+        }
+        b:hover{
+            text-decoration: underline;
+        }
+        #fg:hover{
+            text-decoration: underline;
+        }
+        #new:hover{
+            background-color: #31861e;
+        }
+        #email-mob:hover{
+            border: 1px solid blue;
+        }
+        #pswd:hover{
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-section">
+        <h1 id="fb">facebook</h1>
+        <p id="Note">Facebook helps you connect and share with the people in your life.</p>
+    </div>
+    <form>
+    <div class="box-section">
+    <div class="box">
+        <label for="email-mob"></label>
+        <input type="text" name="email-mob" id="email-mob" placeholder="Email address or phone number"><br>
+        <label for="pswd"></label>
+        <input type="password" name="pswd" id="pswd" placeholder="Password"><br>
+        <button type="submit" id="login">Log in</button><br>
+        <a href="#" id="fg">Forgotten password?</a>
+        <hr>
+        <a href="#" style="text-decoration: none;"><button type="button" id="new">Create new account</button></a>
+    </div>
+    <p id="para"><a href="#"><b>Create a Page</b></a>&nbsp;for a celebrity, brand or business.</p>
+    </div>
+</form>
+</body>
+</body>
+</html>
